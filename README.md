@@ -319,6 +319,7 @@ Running Cipher RFQ Demo...
 [4] Auction Resolved. Winner Found.
 -------------------------------------------
 Demo Complete.
+```
 
 ## 🧪 Testing
 
@@ -327,7 +328,7 @@ To run unit tests that verify the FHE logic using Zama's mock environment:
 ```bash
 npx hardhat auction:advanced --network sepolia
 ---
-
+```
 ## 🛡 Security Considerations
 
 1. **Metadata Leakage:** While the *amount* is encrypted, the *timing* of the bid and the *bidder's address* are visible on the ledger. Future versions will implement Relayers to obfuscate the sender.
