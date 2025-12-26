@@ -235,17 +235,17 @@ npm install
 
 Create a `.env` file in the root directory. You can copy the example if it exists.
 
-**`.env` Content:**
+**hardhat.config Content:**
 
-```env
+```fill this in hardhat.config
 # Your 12-word seed phrase (Recommended for dev)
 MNEMONIC="test test test test test test test test test test test junk"
 
 # OR Your Private Key (If not using mnemonic)
 PRIVATE_KEY="0x..."
 
-# Zama Sepolia RPC URL
-ZAMA_RPC_URL="[https://devnet.zama.ai](https://devnet.zama.ai)"
+# Sepolia RPC URL
+RPC_URL="rpc/infaura"
 
 # Etherscan API Key (Optional, for verification)
 ETHERSCAN_API_KEY="ABC..."
