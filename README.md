@@ -272,7 +272,7 @@ npx hardhat compile
 Deploys `ConfidentialERC20` tokens (e.g., zUSD, zPEPE).
 
 ```bash
-npx hardhat run deploy/deployMocks.ts --network zama
+npx hardhat run deploy/deployMocks.ts --network sepolia
 
 ```
 
@@ -281,7 +281,7 @@ npx hardhat run deploy/deployMocks.ts --network zama
 Deploys the main logic and links it to the mocks.
 
 ```bash
-npx hardhat run deploy/deployCipherCore.ts --network zama
+npx hardhat run deploy/deployCipherCore.ts --network sepolia
 
 ```
 
