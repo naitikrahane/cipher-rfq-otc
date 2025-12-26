@@ -1,4 +1,4 @@
-```markdown
+
 # 🔐 Cipher RFQ & OTC: Privacy-Preserving On-Chain Trading Protocol
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Framework](https://img.shields.io/badge/framework-Hardhat-yellow.svg) ![Encryption](https://img.shields.io/badge/encryption-TFHE%20(Zama)-green.svg) ![Network](https://img.shields.io/badge/network-Sepolia%20FHEVM-orange.svg) ![Status](https://img.shields.io/badge/status-Alpha-red.svg)
