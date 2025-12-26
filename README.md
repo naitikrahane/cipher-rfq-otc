@@ -231,9 +231,9 @@ npm install
 
 ```
 
-### 3. Environment Setup
+### 3.Setup hardhat config file
 
-Create a `.env` file in the root directory. You can copy the example if it exists.
+open a `hardhat.config.json` file in the root directory. 
 
 **hardhat.config Content:**
 
