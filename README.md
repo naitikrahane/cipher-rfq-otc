@@ -219,7 +219,7 @@ Abstracts complexity and keeps `CipherCore` clean.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/naitikrahane/cipher-rfq-otc.git](https://github.com/naitikrahane/cipher-rfq-otc.git)
+git clone https://github.com/naitikrahane/cipher-rfq-otc.git
 cd cipher-rfq-otc
 
 ```
@@ -320,26 +320,12 @@ Running Cipher RFQ Demo...
 -------------------------------------------
 Demo Complete.
 
-```
-
----
-
 ## 🧪 Testing
 
 To run unit tests that verify the FHE logic using Zama's mock environment:
 
 ```bash
-npx hardhat test
-
-```
-
-To run specific tests:
-
-```bash
-npx hardhat test test/CipherCore.test.ts
-
-```
-
+npx hardhat auction:advanced --network sepolia
 ---
 
 ## 🛡 Security Considerations
